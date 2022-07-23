@@ -58,8 +58,23 @@
 body {
     background-color: var(--body-backgroud-color);
     font-family: "Fira Code", monospace;
+    overflow-x: hidden;
 }
 
 a {
     text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #181818;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--terminal-grey);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

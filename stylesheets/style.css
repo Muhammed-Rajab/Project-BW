@@ -60,3 +60,35 @@
     font-weight: 600;
     font-size: 1.15rem;
 }
+
+/* I'm from styling */
+.im-from-section {
+    row-gap: 10px;
+}
+.im-from-title {
+    text-transform: uppercase;
+    color: var(--terminal-grey);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.im-from-pre-flag {
+    font-family: Courier;
+    font-family: monospace;
+    font-size: 1.15rem;
+}
+.im-from-saffron {
+    color: var(--saffron);
+    font-weight: 900;
+}
+.im-from-green {
+    color: var(--green);
+    font-weight: 900;
+}
+.im-from-kerala-legend {
+    color: var(--red);
+    font-weight: 900;
+}
+.im-from-legend-text {
+    color: var(--white);
+    font-weight: 900;
+}
