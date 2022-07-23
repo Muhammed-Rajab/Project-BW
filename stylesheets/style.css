@@ -73,7 +73,7 @@
 }
 .im-from-pre-flag {
     font-family: Courier;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 1.15rem;
 }
 .im-from-saffron {
