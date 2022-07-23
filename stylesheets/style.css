@@ -2,6 +2,7 @@
 #root {
     width: 100vw;
     min-height: 100vh;
+    color: var(--white);
 }
 
 /* Social media sidebar styling */
@@ -19,3 +20,27 @@
 }
 
 /* Main content styling */
+.main-content {
+    margin-left: 6rem;
+    padding-top: 14rem;
+}
+
+/* Hero section styling */
+.hero-section {
+}
+.hero-title {
+    font-weight: bold;
+}
+.hero-command {
+    font-size: 1.75rem;
+}
+
+.hero-command-user {
+    color: var(--terminal-green);
+}
+.hero-command-tilde {
+    color: var(--terminal-blue);
+}
+.hero-name {
+    font-size: 7rem;
+}

@@ -9,6 +9,8 @@
         3. Variables should be in the following format
             --general-name-[type=color|background-color|size]
 */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&display=swap");
 
 * {
     margin: 0;
@@ -55,6 +57,7 @@
 
 body {
     background-color: var(--body-backgroud-color);
+    font-family: "Fira Code", monospace;
 }
 
 a {
