@@ -23,6 +23,7 @@
 .main-content {
     margin-left: 6rem;
     padding-top: 14rem;
+    row-gap: 25px;
 }
 
 /* Hero section styling */
@@ -43,4 +44,19 @@
 }
 .hero-name {
     font-size: 7rem;
+}
+
+/* About me styling */
+.about-section {
+    row-gap: 10px;
+}
+.about-me-title {
+    text-transform: uppercase;
+    color: var(--terminal-grey);
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.about-me-para {
+    font-weight: 600;
+    font-size: 1.15rem;
 }
