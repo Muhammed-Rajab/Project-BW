@@ -1,18 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rajab | Portfolio</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rajab | Portfolio</title>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="./stylesheets/base.css" />
-    <link rel="stylesheet" href="./stylesheets/utility.css" />
-    <link rel="stylesheet" href="./stylesheets/style.css" />
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="./stylesheets/base.css" />
+        <link rel="stylesheet" href="./stylesheets/utility.css" />
+        <link rel="stylesheet" href="./stylesheets/style.css" />
 
-    <!-- Scripts -->
-    <script src="./scripts/main.js" type="module" defer></script>
-  </head>
-  <body></body>
+        <!-- Scripts -->
+        <script src="./scripts/main.js" type="module" defer></script>
+    </head>
+    <body>
+        <!-- Root container -->
+        <main id="root" class="d-flex">
+            <!-- Social media links sidebar -->
+            <section class="d-flex fd-col social-media-sidebar">
+                <a href="#" class="social-media-button"
+                    ><svg
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M34 4H14C8.47715 4 4 8.47715 4 14V34C4 39.5228 8.47715 44 14 44H34C39.5228 44 44 39.5228 44 34V14C44 8.47715 39.5228 4 34 4Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M32 22.74C32.2468 24.4045 31.9625 26.1044 31.1875 27.598C30.4125 29.0916 29.1863 30.3028 27.6833 31.0593C26.1802 31.8159 24.4769 32.0792 22.8156 31.8119C21.1543 31.5445 19.6195 30.7602 18.4297 29.5703C17.2399 28.3805 16.4555 26.8457 16.1882 25.1844C15.9208 23.5231 16.1842 21.8198 16.9407 20.3167C17.6972 18.8137 18.9084 17.5875 20.402 16.8125C21.8956 16.0375 23.5955 15.7532 25.26 16C26.9579 16.2518 28.5297 17.0429 29.7434 18.2566C30.9571 19.4703 31.7483 21.0421 32 22.74Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M35 13H35.02"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="social-media-button"
+                    ><svg
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M32 16C35.1826 16 38.2348 17.2643 40.4853 19.5147C42.7357 21.7652 44 24.8174 44 28V42H36V28C36 26.9391 35.5786 25.9217 34.8284 25.1716C34.0783 24.4214 33.0609 24 32 24C30.9391 24 29.9217 24.4214 29.1716 25.1716C28.4214 25.9217 28 26.9391 28 28V42H20V28C20 24.8174 21.2643 21.7652 23.5147 19.5147C25.7652 17.2643 28.8174 16 32 16V16Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M12 18H4V42H12V18Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </a>
+                <a href="#" class="social-media-button">
+                    <svg
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g clip-path="url(#clip0_9_175)">
+                            <path
+                                d="M32 44V36.26C32.075 35.3063 31.9462 34.3476 31.622 33.4476C31.2979 32.5476 30.7859 31.7268 30.12 31.04C36.4 30.34 43 27.96 43 17.04C42.9995 14.2477 41.9254 11.5624 40 9.54C40.9117 7.09701 40.8472 4.3967 39.82 2C39.82 2 37.46 1.3 32 4.96C27.416 3.71764 22.584 3.71764 18 4.96C12.54 1.3 10.18 2 10.18 2C9.15275 4.3967 9.08829 7.09701 10 9.54C8.06025 11.5774 6.98505 14.2869 7 17.1C7 27.94 13.6 30.32 19.88 31.1C19.222 31.7799 18.7145 32.5908 18.3906 33.4798C18.0667 34.3689 17.9336 35.3161 18 36.26V44M18 38C8 41 8 33 4 32L18 38Z"
+                                stroke="white"
+                                stroke-width="4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_9_175">
+                                <rect width="48" height="48" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="#" class="social-media-button"
+                    ><svg
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <g clip-path="url(#clip0_9_186)">
+                            <path
+                                d="M45.08 12.84C44.8424 11.8908 44.3586 11.0211 43.6773 10.3188C42.996 9.61648 42.1415 9.10637 41.2 8.84C37.76 8 24 8 24 8C24 8 10.24 8 6.79998 8.92C5.85848 9.18637 5.00394 9.69648 4.32268 10.3988C3.64142 11.1011 3.15756 11.9708 2.91998 12.92C2.29041 16.4111 1.98246 19.9526 1.99998 23.5C1.97754 27.0741 2.28552 30.6426 2.91998 34.16C3.1819 35.0797 3.6766 35.9163 4.35627 36.589C5.03595 37.2616 5.87762 37.7476 6.79998 38C10.24 38.92 24 38.92 24 38.92C24 38.92 37.76 38.92 41.2 38C42.1415 37.7336 42.996 37.2235 43.6773 36.5212C44.3586 35.8189 44.8424 34.9492 45.08 34C45.7047 30.5352 46.0126 27.0207 46 23.5C46.0224 19.9259 45.7145 16.3574 45.08 12.84V12.84Z"
+                                stroke="white"
+                                stroke-width="4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M19.5 30.04L31 23.5L19.5 16.96V30.04Z"
+                                stroke="white"
+                                stroke-width="4"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_9_186">
+                                <rect width="48" height="48" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+
+                <a href="#" class="social-media-button">
+                    <svg
+                        width="48"
+                        height="48"
+                        viewBox="0 0 48 48"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M8 8H40C42.2 8 44 9.8 44 12V36C44 38.2 42.2 40 40 40H8C5.8 40 4 38.2 4 36V12C4 9.8 5.8 8 8 8Z"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M44 12L24 26L4 12"
+                            stroke="white"
+                            stroke-width="4"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </a>
+            </section>
+
+            <!-- Main content -->
+            <section class="main-content"></section>
+        </main>
+    </body>
 </html>

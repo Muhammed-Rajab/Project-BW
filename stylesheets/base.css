@@ -1,0 +1,62 @@
+/* 
+    Rules:
+        1. Add suffix mentioning the usage
+            eg: content-container
+        
+        2. Add __ to show sub-classes
+            eg: content-container__title
+
+        3. Variables should be in the following format
+            --general-name-[type=color|background-color|size]
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Body */
+    --body-backgroud-color: black;
+    --terminal-green: #8ae234;
+    --terminal-blue: #729fce;
+    --terminal-white: #ffffff;
+    --terminal-grey: #666666;
+
+    /* Generic colors */
+    --saffron: #ff9933;
+    --white: #ffffff;
+    --green: #8ae234;
+    --red: #d52a1f;
+
+    /* Skill colors */
+    --js: #ecdc56;
+    --ts: #3d6f9e;
+    --cs: #05930c;
+    --py: #3d6f9e;
+    --mongo: #18ac51;
+    --redis: #d52a1f;
+    --fast-api: #1e9184;
+    --express: #3b4954;
+    --node: #689f63;
+    --react: #6edafa;
+    --html: #ec662a;
+    --css: #3b48e3;
+    --tailwind: #4ebcf7;
+    --bs: #8f00fa;
+    --linux: #ffe400;
+    --git: #ec662a;
+    --docker: #4ebcf7;
+
+    /* UI Component colors */
+    --link-color: #4ebcf7;
+}
+
+body {
+    background-color: var(--body-backgroud-color);
+}
+
+a {
+    text-decoration: none;
+}
