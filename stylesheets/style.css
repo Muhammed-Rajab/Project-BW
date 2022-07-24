@@ -105,7 +105,11 @@
     font-size: 1.15rem;
     text-transform: uppercase;
 }
+.skill-lists-container {
+    flex-wrap: wrap;
+}
 .skill-list {
+    width: 45%;
     row-gap: 5px;
     padding: 8px 0px;
     margin-top: 10px;
@@ -116,6 +120,8 @@
 }
 .skills {
     column-gap: 10px;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 .skills div {
     padding: 10px 15px;
