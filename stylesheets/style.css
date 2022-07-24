@@ -23,7 +23,8 @@
 .main-content {
     margin-left: 6rem;
     padding-top: 14rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    padding-right: 3rem;
     row-gap: 25px;
 }
 
@@ -277,5 +278,20 @@
 .open-to-work-link-wrapper a {
     font-weight: 900;
     color: var(--terminal-green);
+    text-decoration: underline;
+}
+
+/* Footer section styling*/
+.footer {
+    color: var(--white);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+    border: 4px solid var(--white);
+}
+.footer a {
+    color: var(--red);
+    font-weight: 900;
     text-decoration: underline;
 }
