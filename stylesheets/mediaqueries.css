@@ -60,7 +60,6 @@
     .projects-list {
         justify-content: center;
         align-items: center;
-        row-gap: 1.5rem;
     }
     .project-more-link {
         text-align: center;
