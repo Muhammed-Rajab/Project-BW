@@ -1,0 +1,68 @@
+@media only screen and (max-width: 786px) {
+    /* Social media container responsive styling */
+    #root {
+        flex-direction: column;
+        padding: 0px 1rem;
+    }
+    .social-media-sidebar {
+        column-gap: 0.8rem;
+        position: static;
+        top: 0%;
+        left: 20px;
+        transform: translate(0%, 0%);
+        flex-direction: row;
+        margin-top: 10rem;
+        margin-bottom: 0.8rem;
+    }
+    .main-content {
+        margin-left: 0rem;
+        padding-top: 0rem;
+        padding-right: 0rem;
+        padding-bottom: 1.5rem;
+    }
+    /* Hero section responsive styles */
+    .hero-section {
+    }
+    .hero-title {
+        font-weight: bold;
+    }
+    .hero-command {
+        font-size: 1.25rem;
+    }
+
+    .hero-command-user {
+        color: var(--terminal-green);
+    }
+    .hero-command-tilde {
+        color: var(--terminal-blue);
+    }
+    .hero-name {
+        font-size: 6rem;
+    }
+    /* About me responsive styles */
+    .about-me-para {
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    /* Location pre tag responsive styling */
+    .im-from-pre-flag {
+        font-family: Courier;
+        /* font-family: monospace; */
+        font-size: 0.5rem;
+    }
+    /* Skills responsive styling */
+    .skills {
+        column-gap: 10px;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    /* Projects responsive styles */
+    .projects-list {
+        justify-content: center;
+        align-items: center;
+        row-gap: 1.5rem;
+    }
+    .project-more-link {
+        text-align: center;
+    }
+}
