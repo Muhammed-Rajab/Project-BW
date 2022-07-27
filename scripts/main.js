@@ -44,10 +44,12 @@ async function fetchAndUpdateProjectsData() {
     const projectsList = document.querySelector(".projects-list");
     const projectsData = await fetchAndParseJSON(PROJECTS_URL);
 
-    projectsData.map((project) => {
-        const projectCard = generateProjectCard(project);
-        projectsList.insertAdjacentHTML("beforeend", projectCard);
-    });
+    const projectsCardHtml = projectsData
+        .map((project) => generateProjectCard(project))
+        .join("\n");
+    setTimeout(() => {
+        projectsList.innerHTML = projectsCardHtml;
+    }, 250);
 }
 
 window.addEventListener("load", async () => {
