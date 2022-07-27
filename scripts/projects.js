@@ -28,7 +28,7 @@ export function generateProjectCard(project) {
 
 export async function fetchAndUpdateProjectsData() {
     const PROJECTS_URL =
-        "https://raw.githubusercontent.com/Muhammed-Rajab/portfolio-data/master/projects.json";
+        "https://raw.githubusercontent.com/Muhammed-Rajab/Muhammed-Rajab.github.io/master/data/projects.json";
     const projectsList = document.querySelector(".projects-list");
     const projectsData = await fetchAndParseJSON(PROJECTS_URL);
 

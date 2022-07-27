@@ -18,7 +18,7 @@ export function generateSkillList(title, skills) {
 
 export async function fetchAndUpdateSkillsData() {
     const SKILLS_URL =
-        "https://raw.githubusercontent.com/Muhammed-Rajab/portfolio-data/master/skills.json";
+        "https://raw.githubusercontent.com/Muhammed-Rajab/Muhammed-Rajab.github.io/master/data/skills.json";
     const skillListContainer = document.querySelector(".skill-lists-container");
     const skillsData = await fetchAndParseJSON(SKILLS_URL);
 
