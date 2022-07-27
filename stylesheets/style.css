@@ -192,6 +192,7 @@
     column-gap: 10px;
     flex-wrap: wrap;
     row-gap: 10px;
+    margin-top: 8px;
 }
 .skills div {
     padding: 10px 15px;
