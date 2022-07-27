@@ -17,3 +17,12 @@ export function hideLoadingScreen() {
     document.querySelector("#root").style.display = "flex";
     document.querySelector(".loading-screen").style.display = "none";
 }
+
+export function switchBackgroundColor() {
+    /*
+        Check if background color is present in the localStorage
+        If present, then set it as background of body and of the bg-switcher button.
+
+        else on clicking the bg-switcher button, get index data property of the button and change background color to index+1 if index < colors.length else index = 0;
+    */
+}
