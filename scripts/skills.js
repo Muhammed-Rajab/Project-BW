@@ -22,10 +22,9 @@ export async function fetchAndUpdateSkillsData() {
     const skillListContainer = document.querySelector(".skill-lists-container");
     const skillsData = await fetchAndParseJSON(SKILLS_URL);
 
-    skillListsHtml = Object.keys(skillsData)
-        .map((key) => generateSkillList(key, skillsData[key]))
-        .join("\n\n");
     setTimeout(() => {
-        skillListContainer.innerHTML = skillListsHtml;
-    }, 100);
+        skillListContainer.innerHTML = Object.keys(skillsData)
+            .map((key) => generateSkillList(key, skillsData[key]))
+            .join("\n\n");
+    }, 200);
 }
