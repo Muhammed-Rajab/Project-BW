@@ -203,7 +203,8 @@
     flex-wrap: wrap;
 }
 .project-card {
-    width: 250px;
+    /* width: 250px; */
+    width: 45%;
     padding: 15px;
     border: 4px solid var(--white);
     row-gap: 0px;
@@ -214,6 +215,7 @@
 }
 .project-tags {
     column-gap: 0.5rem;
+    row-gap: 0.5rem;
     flex-wrap: wrap;
     padding: 4px;
     text-transform: lowercase;
@@ -221,6 +223,9 @@
 }
 .project-tag {
     font-size: 0.8rem;
+    display: inline-block;
+    padding: 6px;
+    background-color: #484848;
 }
 
 .project-desc {
