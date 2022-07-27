@@ -60,6 +60,7 @@
     width: 100vw;
     min-height: 100vh;
     color: var(--white);
+    display: none;
 }
 
 /* Social media sidebar styling */

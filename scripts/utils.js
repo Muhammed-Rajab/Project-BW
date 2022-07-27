@@ -14,10 +14,6 @@ export async function fetchAndParseJSON(url) {
 
 export function hideLoadingScreen() {
     document.body.classList.remove("oy-hidden");
-    // document
-    //     .querySelector(".loading-screen")
-    //     .classList.add("loading-screen-animation-class");
-    // setTimeout(() => {
+    document.querySelector("#root").style.display = "flex";
     document.querySelector(".loading-screen").style.display = "none";
-    // }, 2000);
 }
