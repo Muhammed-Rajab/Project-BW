@@ -1,3 +1,60 @@
+/* Loading screen */
+.loading-screen {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 100;
+}
+.loading-screen-animation-class {
+    animation: loading-screen-hide 2s linear 0s 1;
+    animation-fill-mode: backwards;
+}
+.loading-screen-squares-wrapper {
+    column-gap: 10px;
+    margin-top: 1rem;
+}
+.loading-screen-square {
+    width: 12px;
+    height: 12px;
+    /* background: white; */
+}
+.loading-screen-square:nth-child(1) {
+    animation-delay: 1s;
+    animation: loading-screen-square-animation 1s ease-in-out infinite;
+}
+.loading-screen-square:nth-child(2) {
+    animation-delay: 2s;
+    animation: loading-screen-square-animation 2s ease-in-out infinite;
+}
+.loading-screen-square:nth-child(3) {
+    animation-delay: 3s;
+    animation: loading-screen-square-animation 3s ease-in-out infinite;
+}
+
+@keyframes loading-screen-hide {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes loading-screen-square-animation {
+    from {
+        border: 3px solid white;
+    }
+    to {
+        border: 0px solid black;
+    }
+}
+
 /* Root element styling */
 #root {
     width: 100vw;

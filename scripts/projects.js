@@ -37,5 +37,5 @@ export async function fetchAndUpdateProjectsData() {
         .join("\n");
     setTimeout(() => {
         projectsList.innerHTML = projectsCardHtml;
-    }, 250);
+    }, 100);
 }

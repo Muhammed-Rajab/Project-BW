@@ -27,5 +27,5 @@ export async function fetchAndUpdateSkillsData() {
         .join("\n\n");
     setTimeout(() => {
         skillListContainer.innerHTML = skillListsHtml;
-    }, 250);
+    }, 100);
 }

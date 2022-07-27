@@ -11,3 +11,13 @@ export async function fetchAndParseJSON(url) {
         return { error: e.message };
     }
 }
+
+export function hideLoadingScreen() {
+    document.body.classList.remove("oy-hidden");
+    // document
+    //     .querySelector(".loading-screen")
+    //     .classList.add("loading-screen-animation-class");
+    // setTimeout(() => {
+    document.querySelector(".loading-screen").style.display = "none";
+    // }, 2000);
+}
