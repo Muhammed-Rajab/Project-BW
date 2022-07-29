@@ -144,8 +144,7 @@
     font-size: 1.15rem;
 }
 .im-from-pre-flag {
-    font-family: Courier;
-    /* font-family: monospace; */
+    font-family: Courier, monospace;
     font-size: 1.15rem;
 }
 .im-from-saffron {
@@ -238,7 +237,9 @@
     font-size: 0.8rem;
     display: inline-block;
     padding: 6px;
-    background-color: #484848;
+    /* background-color: #484848; */
+    /* text-decoration: underline; */
+    border: 2px solid white;
 }
 
 .project-desc {
